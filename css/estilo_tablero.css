@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: steelblue;
+    color: #EEE;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*Ahora procederemos a estilizar el div con el id tablero, el cual funciona como el contenedor de cada 
+una de las “celdas” del tablero.*/
+/* uso del id tablero*/
+#tablero{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+/*A continuación procederemos a estilizar los párrafos que están dentro de los div con clase filaImpar. 
+Para este caso queremos que las celdas impares (la primera, la tercera, la quinta y la séptima) se 
+muestren con color de fondo blanco. Digite la siguiente regla de estilo y visualice los cambios en el 
+navegador.*/
+#tablero .filaimpar p:nth-child(2n+1){ 
+    background-color: white;
+    }
+
+/*. Proceda a escribir la regla de estilo necesaria para conseguir que los párrafos que están dentro de los 
+div con clase filaPar se muestren de forma correcta. Para esto debe hacer que las celdas pares (la 
+segunda, cuarta, sexta y octava) se muestren con color de fondo blanc*/
+#tablero .filapar p:nth-child(1n+1) {
+    background-color: lightgray; /* Para las celdas impares de las filas pares */
+}
