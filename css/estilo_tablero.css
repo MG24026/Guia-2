@@ -30,7 +30,7 @@ navegador.*/
 
 /*. Proceda a escribir la regla de estilo necesaria para conseguir que los párrafos que están dentro de los 
 div con clase filaPar se muestren de forma correcta. Para esto debe hacer que las celdas pares (la 
-segunda, cuarta, sexta y octava) se muestren con color de fondo blanc*/
+segunda, cuarta, sexta y octava) se muestren con color de fondo blanco*/
 #tablero .filapar p:nth-child(1n+1) {
-    background-color: lightgray; /* Para las celdas impares de las filas pares */
+    background-color: white;
 }
